@@ -63,6 +63,9 @@ a:hover {
 }
 
 .logo-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   text-decoration: none;
 }
 
@@ -70,17 +73,18 @@ a:hover {
   text-decoration: none;
 }
 
-.logo {
-  font-size: 20px;
-  font-weight: 700;
-  color: var(--brand);
-  line-height: 1.2;
+.logo-img {
+  height: 36px;
+  width: auto;
+  border-radius: 8px;
+  display: block;
 }
 
 .logo-sub {
   font-size: 11px;
   color: var(--text-muted);
   line-height: 1.2;
+  margin-top: 2px;
 }
 
 .nav-desktop {
@@ -202,6 +206,14 @@ a:hover {
   padding: 64px 24px;
   text-align: center;
   color: var(--white);
+}
+
+.hero-logo {
+  height: 80px;
+  width: auto;
+  border-radius: 16px;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero h1 {
